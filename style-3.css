@@ -1,0 +1,73 @@
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,127;1,127&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            width: 80vh;
+            height: 120vh;
+            border: 0.5px solid black;
+            display: flexbox;
+            /* margin-left: 10vw;
+            margin-right: 10vw;
+            margin-top: 10vh;
+            margin-bottom: 10vh; */
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10vh;
+            margin-bottom: 10vh;
+            border-radius: 20px;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        .img{
+            height: 57vh;
+            width: 77vh;
+            display: flex;
+            margin: auto;
+            margin-top: 2vh;
+            margin-bottom: 5vh;
+            border-radius: 20px;
+            
+        } 
+        .desc{
+            /*  */
+            font-size: x-large;
+            padding: 10px;
+            display: inline;
+            border: 0.1px solid rgb(100, 128, 164);
+            border-radius: 50px;
+            margin: 1vw;
+            color: rgb(100, 128, 164);
+
+        }
+        .paraBox{
+            margin-left: 2vw;
+        }
+        .header{
+            font-family: "Montserrat", sans-serif;
+            font-weight: 100;
+            margin: 5vh;
+            font-size: xx-large;
+        }
+        .content{
+            margin: 5vh;
+            font-family: "Montserrat", sans-serif;
+            font-size: x-large;
+            color:rgb(9, 9, 79)
+        }
+        .button{
+            font-size: larger;
+            width: 20vh;
+            height: 4vh;
+            padding: 10px;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 900;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #E0EFFF;
+            border-radius: 50px;
+            margin-left:30vh;
+            color: #73B5FF;
+            
+        }
